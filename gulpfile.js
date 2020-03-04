@@ -6,7 +6,7 @@ const cleanCSS = require('gulp-clean-css');
 const htmlmin = require('gulp-htmlmin');
 
 gulp.task('clean', () => {
-  return gulp.src('dist', { read: false }).pipe(clean());
+  return gulp.src('dist', { read: false, allowEmpty: true }).pipe(clean());
 });
 
 gulp.task('sass', () => {
