@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "live-server public --browser=firefox",
-    "watch": "node-sass src/styles/main.scss public/css/main.css -w",
+    "watch": "node-sass src/styles/main.scss public/nexter/css/main.css -w",
     "build": "gulp build"
   },
   "keywords": [],
